@@ -24,6 +24,8 @@ async function bootstrap() {
 
   await app.listen(envs.port ?? 3000);
 
+  console.log('Hola mundo - Primer cambio')
+
 
   logger.log(`Gateway is running on ${envs.port ?? 3000} port`);
 }

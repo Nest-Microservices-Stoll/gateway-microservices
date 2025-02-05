@@ -7,6 +7,7 @@ import { RpcCustomExceptionFilter } from './common/dtos/exceptions/rpc-exception
 async function bootstrap() {
 
   const logger = new Logger('Main-Gateway')
+ 
 
   const app = await NestFactory.create(AppModule);
 
